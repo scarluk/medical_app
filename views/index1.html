@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1" />
+<meta name="author" content="J2MAE" />
+<meta name="description" content="Professional medical management system" />
+<meta name="keywords" content="professional medical dashboard, HTML UI MedRapp," />
+<title>MedRapp</title>
+<link rel="stylesheet" href="dashboard.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+        
+<!-- logo -->
+     <div>
+      <h1><img src="logo-1.png">Med<span style="color:green"><strong>Rap</strong></span></h1>
+    </div>
+   
+    
+    
+  <!-- </sidenav>  -->
+
+  <div class="sidenav">
+
+    <button class="dropdown-btn"><i class="material-icons">medical_services</i>Doctors<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-container">
+      <a href="doctors.html">Add new doctor</a>
+      <a href="doctors.html">Edit profile</a>
+      <a href="doctors.html">View all doctors</a>
+    </div>
+
+    <button class="dropdown-btn"><i class="material-icons">personal_injury</i>Patients<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-container">
+      <a href="new-patient.html">Add a new patient</a>
+      <a href="new-patient.html">Edit profile</a>
+      <a href="new-patient.html">View all patients</a>
+    </div>
+    <a href="appointments.html"><i class="material-icons">book_online</i>Appointments</a>
+    <a href="graphics.html"><i class="material-icons">analytics</i>Analytics</a>
+    <a href="messages.html"><i class="material-icons">mail</i>Messages</a>
+  </div>
+
+  <!--the top navigation bar-->
+<topnav class="topnav">
+	<button class="btn"><a href="appointments.html" class="btn"><i class="fa fa-calendar"aria-hidden="ture"></i> Make an Appointment</i></a></button>
+	
+	<button class="btn"><a href="doctors.html" class="btn"><i class="fa fa-folder"aria-hidden="ture"></i> Draft a Report</i></a></button>
+    
+    <button class="btn"><a href="doctors.html" class="btn"><i class="fa fa-folder" aria-hidden="true"></i> Write a Prescription</i></a></button>
+
+
+    <div class="img">
+        <img src="img-avatar.png">
+		<div class="dropdown">
+			<button class="dropbtn"> Dr MARK WILSON <i class="fa fa-arrow-circle-down" aria-hidden="true"></i></button>
+			<div class="dropdown-content">
+				<a href="doctors.html">Booking form</a>
+				<a href="doctors.html">My profile</a>
+				<a href="login.html">Login</a>
+			</div>
+		</div>
+    </div>
+</topnav>   
+<!-- introductionary statement -->
+<div class="main-welcome">
+	<div>
+		<h2>Good morning, <span style="color:blue">Dr. Wilson</span></h2> 
+		<span></span>
+		<p>Here are your important tasks, updates and alerts. You can select your preference options here</p>
+	</div>
+</div>
+
+<body>
+
+
+<!-- first column - first row -->
+  <div class="column25">
+      <div class="dropdown">
+            <button class="dropbtn"><i class="fa fa-plus" aria-hidden="true"></i></button>
+          <div class="dropdown-content">
+            <a href="patients.html">More Details</a>
+            <a href="patients.html">View Activity</a>
+            <a href="doctors.html">Edit Settings</a>
+          </div>
+      </div>
+        <h3>Important Tasks<h3>
+        <h4 style="opacity: 0.7;">TOAY 07 FEBRUARY 2023</h4>	
+        <H1 style="color:red; font-weight: bold; font-size: 59px;">31</H1>
+        <p>5 URGENT</p>
+        <p>22 LESS URGENT</p>
+        <p>4 REQUIRED</p>	
+</div>
+
+<!-- second column first row -->
+<div class="column35">
+    <div class="dropdown">
+        <button class="dropbtn"><i class="fa fa-plus" aria-hidden="true"></i></button>
+        <div class="dropdown-content">
+          <a href="patients.html">More Details</a>
+          <a href="patients.html">View Patients</a>
+          <a href="new-patient.html">Edit Settings</a>
+      </div>
+    </div>			
+       <h3>New Patients<h3>
+       <h4 style="opacity: 0.7;">REGISTERED IN FEBRUARY</h4>
+       <H1 style="color:aqua; font-weight: bold; font-size: 59px;">14</H1>
+      <p>7 DIABETES</p>
+      <p>4 CHRONIC PANCREATIS</p>
+      <p>3 TUBERCOLOSIS</p>
+</div>
+
+  <div class="column45">
+    <div class="dropdown">
+      <button class="dropbtn"><i class="fa fa-plus" aria-hidden="true"></i></button>
+    <div class="dropdown-content">
+      <a href="patients.html">More Details</a>
+      <a href="graphics.html">View Alerts</a>
+      <a href="appointments.html">Edit Settings</a>
+    </div>
+</div>
+      <h3>Alert<h3>	
+			
+   
+		<H4 style="opacity: 0.7;">LAST UPDATE - JANUARY 2023</H4>
+		<H1 style="color:purple; font-weight: bold; font-size: 59px;">34</H1>
+		<p>NEW COVID CASES REIGESTERED  <br>NATIONWIDE WITH POTENTIAL <br>INCREASES IN NUMBER</p>
+  </div>
+
+
+    <div class="column55">
+      <h3>Activity<h3>	
+			<div class="dropdown">
+			  	<button class="dropbtn"><i class="fa fa-plus" aria-hidden="true"></i></button>
+          <div class="dropdown-content">
+            <a href="patients.html">More Details</a>
+            <a href="graphics.html">View Activities</a>
+            <a href="new-patient.html">Edit Settings</a>
+          </div>
+       </div>
+		   <H4 style="opacity: 0.7;">LAST UPDATE - Year 2023</H4>
+    </div>
+
+
+  <div class="column65">
+    <h3>Latest Patients</h3>
+    <div class="dropdown">
+      <button class="dropbtn"><i class="fa fa-plus" aria-hidden="true"></i></button>
+      <div class="dropdown-content">
+        <a href="patients.html">More Details</a>
+        <a href="new-patient.html">Share Info</a>
+        <a href="index1.html">Edit Settings</a>	
+      </div>
+    </div>
+        
+        <H4 style="opacity: 0.7;">CURRENT WEEK</H4>
+        
+           <button class="btn"><a href="doctors.html" class="btn">Frank Williams - Pathology</a></button>
+          <button class="btn"><a href="doctors.html" class="btn">Fred Sinclare - Cardiology</a></button>
+          <button class="btn"><a href="doctors.html" class="btn">Tracey Speed - Endoscopy</a></button>
+          <button class="btn"><a href="doctors.html" class="btn">Julia Mars- Radiology</a></button>
+          <button class="btn"><a href="doctors.html" class="btn">Val Bowman - Oncology</a></button>
+    </div>
+
+    <div class="columnCard">
+      <h2>Upcoming Appointments</h2>
+      <p style="opacity: 0.7">01 March - 30 April</p>
+          <div class="columnCard1">
+             <img src="img-avatar.png" alt="Avatar" class="avatar">
+             <p>Dr Mark Wilson</p>
+             <i class="fa fa-medkit" aria-hidden="true"></i> Neurology, Dr. Mark Wilson</i><br><br>
+             <i class="fa fa-calendar" aria-hidden="true"> Monday, 3 March, 2023 </i><br><br>
+             <i class="fa fa-clock-o" aria-hidden="true"></i> 15:00 - 15:30</i>
+          </div>
+          <div class=columnCard2>
+            <img src="avatar1.png" alt="Avatar" class="avatar">
+             <p>Dr Lovisa Arberg</p>
+             <i class="fa fa-medkit" aria-hidden="true"></i> Cardiology, Dr. Lovisa Arberg</i><br><br>
+             <i class="fa fa-calendar" aria-hidden="true"> Monday, 13 April, 2023 </i><br><br>
+             <i class="fa fa-clock-o" aria-hidden="true"></i> 11:00 - 11:30</i>
+          </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+<script>
+  /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+  var dropdown = document.getElementsByClassName("dropdown-btn");
+  var i;
+  
+  for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  }
+  </script>
+  
+  
+
+
+
+  </body>
+
+ </html>
